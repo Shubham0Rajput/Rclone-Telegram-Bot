@@ -79,11 +79,23 @@ HOW TO USE THIS BOT!
   To Show Inline View of Folder in Drive
   Change it to your drive before Running the Code 
 * ### /password [password] ###
-  To Get Authorize to use the Bot
-  The default password is **password**
+  To Get Authorize to use the Bot **CAN ONLY USE FOLDER FEATURE**
+  The default password is **USERPASSWORD**
   i.e
   ```
   /password password
   ```
-  
+* ### /adminpassword [password] ###
+  To Get Authorize to use the Bot More Features 
+  The default password is **ADMINPASSWORD**
+  i.e
+  ```
+  /adminpassword ADMINPASSWORD
+  ```
+* ### /backup ###
+  To Create the Backup 
+  i.e
+  ```
+  /backup
+  ```
 For Help and Support Group Join [Rclone Telegram Help()](https://t.me/rclonetelegramhelp) 
