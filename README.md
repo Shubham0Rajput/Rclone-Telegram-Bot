@@ -9,7 +9,7 @@ _Before everything, install python3. Because we use python as our programing lan
 
 ### Download Rclone ###
 
-**For Linux system**: Install
+** For Linux system**: Install
 [latest rclone](https://rclone.org/downloads/#script-download-and-install). 
 If in Debian/Ubuntu, directly use this command
 ```
@@ -20,10 +20,10 @@ After all dependency above are successfully installed, run this command
 sudo git clone https://github.com/xyou365/AutoRclone && cd AutoRclone && sudo pip3 install -r requirements.txt
 ```
 
-**For Window system**: Install
+** For Window system**: Install
 [latest rclone](https://rclone.org/downloads/)
  
-**Bot Along with Rclone files
+** Bot Along with Rclone files
 [Download](https://github.com/Shubham0Rajput/Rclone-Telegram-Bot/blob/master/rclone-v1.53.0-windows-amd64.zip)
 
 
