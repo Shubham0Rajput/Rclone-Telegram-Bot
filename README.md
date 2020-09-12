@@ -1,5 +1,6 @@
 # Rclone-Telegram-Bot
 This is Rclone Bot in Telegram made for your ease.
+Code has been updated for latest Python [CODE](https://github.com/Shubham0Rajput/Rclone-Telegram-Bot/blob/master/bot(12-September-2020).py)
 
 
 Step 1. Copy code to your VPS or local machine
@@ -21,6 +22,9 @@ sudo git clone https://github.com/xyou365/AutoRclone && cd AutoRclone && sudo pi
 
 **For Window system**: Install
 [latest rclone](https://rclone.org/downloads/)
+ 
+**Bot Along with Rclone files
+[Download](https://github.com/Shubham0Rajput/Rclone-Telegram-Bot/blob/master/rclone-v1.53.0-windows-amd64.zip)
 
 
 ### Download Python Telegram Bot ###
@@ -49,10 +53,21 @@ Step 2. Prerequisite For Starting The Bot
   ```
   rclone config file
   ```
+* Also Install Some pip files
+  ```
+  pip install subprocess.run
+  ```
+  ```
+  pip install subprocess32
+  ```
+  subprocess is updated recently
 
 Step 3. Start The Bot
 ---------------------------------
-Open Terminal or CMD in the directory/folder where the bot.py is stored
+* Complete the code by adding your Drive details ** Line-38,235 for best experience ** also Line-42,230 for best experience 
+* Copy the Bot where rclone.exe is present(in case of windows)
+* Just run bot anywhere in case of Linux
+* Open Terminal or CMD in the directory/folder where the bot.py is stored
 To start bot type 
 ```
 python bot.py
@@ -60,7 +75,7 @@ python bot.py
 HOW TO USE THIS BOT!
 ---------------------------------
 * ### /start ###
-  This command will start the bot 
+  This command to check is bot runing or not
 
 * ###  /help  ###
   To Know About the Commands and How to use them
@@ -73,29 +88,16 @@ HOW TO USE THIS BOT!
 * ### /rclonecopy [command] ###
   To Copy Files from drive1 to drive2, for example
   ```
-  /rclonecopy rclone copy "drive1:subfolder" "drive2:subfolder" -P
+  /rclonecopy rclone copy drive1:subfolder drive2:subfolder -P
   ```
 * ### /folder ###
   To Show Inline View of Folder in Drive
   Change it to your drive before Running the Code 
-* ### /password [password] ###
-  To Get Authorize to use the Bot **CAN ONLY USE FOLDER FEATURE**
-  The default password is **USERPASSWORD**
-  i.e
-  ```
-  /password password
-  ```
-* ### /adminpassword [password] ###
-  To Get Authorize to use the Bot More Features 
-  The default password is **ADMINPASSWORD**
-  i.e
-  ```
-  /adminpassword ADMINPASSWORD
-  ```
+
 * ### /backup ###
   To Create the Backup 
   i.e
   ```
   /backup
   ```
-For Help and Support Group Join [Rclone Telegram Help()](https://t.me/rclonetelegramhelp) 
+![](https://github.com/Shubham0Rajput/Rclone-Telegram-Bot/blob/master/result.gif) 
